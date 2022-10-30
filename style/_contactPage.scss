@@ -1,0 +1,59 @@
+// #textArea {
+//     // width: 41.5vw;
+//     height: 200px;
+//     // margin-top: 10px;
+//     resize: none;
+// }
+
+#map.iframe {
+    width: 10px;
+}
+
+.myFName {
+    grid-area: fName;
+}
+
+.myLName {
+    grid-area: lName;
+}
+
+.myEmail {
+    grid-area: email;
+}
+
+.myPhone {
+    grid-area: phone;
+}
+
+.myTextArea {
+    grid-area: textArea;
+    resize: none;
+    height: 200px;
+}
+
+.myContainer {
+    display: grid;
+    gap: 15px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas: "fName . email" "lName . phone" "textArea textArea textArea";
+    margin: auto;
+    width: 50vw;
+    @media (max-width:1200px) {
+        width: 75vw;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.myContainer2 {
+    margin: auto;
+    width: 50vw;
+    @media (max-width:1200px) {
+        width: 75vw;
+    }
+}
+
+#formBtn, #formBtn2 {
+    background-color: $colorPurple;
+    color: #fff;
+}

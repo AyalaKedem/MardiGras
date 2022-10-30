@@ -1,0 +1,17 @@
+.my_mt {
+    margin-top: 100px;
+}
+
+.my_colorful_shadow {
+    box-shadow: 3.2px 3.2px 0px $colorYellow,
+                -3.2px -3.2px 0px $colorPurple;
+}
+
+.my_italic {
+    font-style: italic;
+    font-size: 15px;
+}
+
+.w-64vw {
+    width: 64vw;
+}

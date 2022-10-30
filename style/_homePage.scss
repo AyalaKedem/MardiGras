@@ -1,0 +1,22 @@
+.myBorder {
+    height: 4px;
+    background-color: $colorYellow;
+}
+
+.myShadow {
+    text-shadow: 1px 1px 1px $colorBlack;
+}
+
+.myTransform {
+    transition: all 0.3s ease-in-out;
+    &:hover {
+        transform: scale(1.03);
+    }
+}
+
+.myContainer-card {
+    @media (max-width:576px) {
+        margin: auto;
+        width: 75vw;
+    }
+}

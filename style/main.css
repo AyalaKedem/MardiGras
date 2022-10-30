@@ -1,0 +1,679 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Pattaya&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Henny+Penny&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("http://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pattaya&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Henny+Penny&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-family: "Pattaya";
+  font-size: 2.5rem;
+  color: #0d0d0d;
+  text-align: center;
+  text-shadow: 1px 1px 1px #9453A6;
+  margin-top: 80px;
+  margin-bottom: 20px;
+}
+@media (max-width: 576px) {
+  h1 {
+    margin-top: 50px;
+  }
+}
+
+h2 {
+  font-family: "Pattaya";
+  font-size: 1.9rem;
+  color: #0d0d0d;
+  text-shadow: 1px 1px 1px #9453A6;
+  margin: 25px 0px 12px 0px;
+  padding-top: 5px;
+}
+
+h3 {
+  font-family: "Pattaya";
+  text-align: center;
+}
+
+h4 {
+  font-family: "Pattaya";
+  text-align: center;
+  text-shadow: 0.3px 0.3px 0.3px #f2cc0f;
+  margin: 30px 0px 10px 0px;
+}
+
+h5 {
+  font-family: "Pattaya";
+  text-align: center;
+}
+
+p {
+  font-family: "Roboto", "sans-serif";
+  font-size: 1rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+.myNav {
+  z-index: 1030;
+  background-color: #f2cc0f;
+  height: 76px;
+}
+@media (max-width: 576px) {
+  .myNav {
+    height: 60px;
+  }
+}
+
+div a img {
+  width: 250px;
+}
+
+div ul li a {
+  font-family: "Henny Penny";
+  font-size: 1.3rem;
+}
+div ul li a:hover {
+  color: #9453A6;
+}
+
+div ul {
+  background-color: #f2cc0f;
+}
+
+.w-200 {
+  width: 200px;
+}
+
+.w-450 {
+  width: 450px;
+}
+@media (max-width: 992px) {
+  .w-450 {
+    width: 100%;
+  }
+}
+
+.hover1 {
+  font-family: "Henny Penny";
+  font-size: 1.3rem;
+}
+.hover1:hover {
+  text-shadow: 1px 1px 1px #9453A6;
+}
+
+.hover2 {
+  font-family: "Henny Penny";
+  font-size: 1.3rem;
+}
+.hover2:hover {
+  text-shadow: 1px 1px 1px #8cbf3f;
+}
+
+.hoverP {
+  color: rgba(0, 0, 0, 0.7);
+}
+.hoverP:hover {
+  background-color: #0d0d0d;
+  color: #9453A6;
+}
+
+.hoverG {
+  color: rgba(0, 0, 0, 0.7);
+}
+.hoverG:hover {
+  background-color: #0d0d0d;
+  color: #8cbf3f;
+}
+
+.hoverY {
+  color: rgba(0, 0, 0, 0.7);
+}
+.hoverY:hover {
+  background-color: #0d0d0d;
+  color: #f2cc0f;
+}
+
+.my_bgC_yellow {
+  background-color: #f2cc0f;
+}
+
+.my-mt-10px {
+  margin-top: 10px;
+}
+
+.myBorder {
+  height: 4px;
+  background-color: #f2cc0f;
+}
+
+.myShadow {
+  text-shadow: 1px 1px 1px #0d0d0d;
+}
+
+.myTransform {
+  transition: all 0.3s ease-in-out;
+}
+.myTransform:hover {
+  transform: scale(1.03);
+}
+
+@media (max-width: 576px) {
+  .myContainer-card {
+    margin: auto;
+    width: 75vw;
+  }
+}
+
+.myFooter {
+  background-color: #f2cc0f;
+}
+
+footer div a i {
+  color: #0d0d0d;
+  font-size: 18px;
+}
+
+.fbh:hover {
+  color: #477fe8;
+}
+
+.th:hover {
+  color: rgb(29, 155, 240);
+}
+
+.ih:hover {
+  color: #b21846;
+}
+
+.yth:hover {
+  color: #f00;
+}
+
+.myMinusMargin {
+  margin-top: -20px;
+}
+
+footer p {
+  font-size: 14px;
+}
+
+.fac_footer {
+  margin-top: 80px;
+}
+
+.my_mt {
+  margin-top: 100px;
+}
+
+.my_colorful_shadow {
+  box-shadow: 3.2px 3.2px 0px #f2cc0f, -3.2px -3.2px 0px #9453A6;
+}
+
+.my_italic {
+  font-style: italic;
+  font-size: 15px;
+}
+
+.w-64vw {
+  width: 64vw;
+}
+
+.wrapper {
+  /* width: 100%; */
+  /* min-height: 100vh; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 10px;
+  margin-bottom: 20px;
+}
+
+.gallery a img {
+  width: 100%;
+  border-radius: 3px;
+}
+
+.videoGallery {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+@media (max-width: 992px) {
+  .videoGallery {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+.videoGallery iframe {
+  border-radius: 3px;
+  width: 100%;
+}
+
+.wrapper2 {
+  /* width: 100%; */
+  /* min-height: 100vh; */
+  align-items: center;
+  justify-content: center;
+}
+
+#map.iframe {
+  width: 10px;
+}
+
+.myFName {
+  grid-area: fName;
+}
+
+.myLName {
+  grid-area: lName;
+}
+
+.myEmail {
+  grid-area: email;
+}
+
+.myPhone {
+  grid-area: phone;
+}
+
+.myTextArea {
+  grid-area: textArea;
+  resize: none;
+  height: 200px;
+}
+
+.myContainer {
+  display: grid;
+  gap: 15px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-areas: "fName . email" "lName . phone" "textArea textArea textArea";
+  margin: auto;
+  width: 50vw;
+}
+@media (max-width: 1200px) {
+  .myContainer {
+    width: 75vw;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.myContainer2 {
+  margin: auto;
+  width: 50vw;
+}
+@media (max-width: 1200px) {
+  .myContainer2 {
+    width: 75vw;
+  }
+}
+
+#formBtn, #formBtn2 {
+  background-color: #9453A6;
+  color: #fff;
+}
+
+.myBgCP {
+  background-color: #9453A6 !important;
+  color: #0d0d0d !important;
+}
+
+.myBgCG {
+  background-color: #8cbf3f !important;
+  color: #0d0d0d !important;
+}
+
+.myBgCY {
+  background-color: #f2cc0f !important;
+  color: #0d0d0d !important;
+}
+
+div p a {
+  color: #9453A6;
+}
+div p a:hover {
+  color: #f2cc0f;
+}
+
+/* importing google font /* לשנות לפונט שלי אחרי בדיקה לאיזה כיתוב זה הולך */
+.start_btn,
+.info_box,
+.quiz_box,
+.result_box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0px 4px 8px 0 rgba(0, 0, 0, 0.2), 0px 6px 20px 0 rgba(0, 0, 0, 0.2);
+}
+
+.my-100-vh {
+  height: 80vh;
+}
+
+.start_btn {
+  font-family: "Henny Penny";
+  font-size: 40px;
+  font-weight: bold;
+  letter-spacing: 5px;
+  color: #0d0d0d;
+  background-color: #8cbf3f;
+  padding: 44px 50px 35px 50px;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  transition: all 0.3s ease-in-out;
+}
+
+.info_box {
+  width: 540px;
+  background-color: #f2f2f2;
+  border-radius: 5px;
+}
+
+.info_box .info_title {
+  font-family: "Pattaya";
+  height: 66px;
+  width: 100%;
+  background-color: rgba(148, 83, 166, 0.368627451);
+  border-radius: 5px 5px 0px 0px;
+  border-bottom: 1px solid lightgrey;
+  display: flex;
+  align-items: center;
+  padding: 0 35px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.info_box .info_title span,
+.quiz_box header .title {
+  font-size: 22px;
+}
+
+.info_box .info_list {
+  padding: 15px 35px;
+}
+
+.info_box .info_list .info {
+  margin: 5px 0;
+  font-size: 17px;
+}
+
+.info_box .info_list .info span {
+  font-weight: 600;
+}
+
+.info_box .buttons {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 0 35px;
+  border-top: 1px solid lightgrey;
+}
+
+.info_box .buttons button {
+  margin: 0 5px;
+  height: 40px;
+  width: 100px;
+  outline: none;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 500;
+  transition: all 0.3s ease-in-out;
+}
+
+.buttons button.restart,
+.buttons button.quit:hover {
+  color: #f2f2f2;
+  border-color: #8cbf3f;
+  background-color: #8cbf3f;
+}
+
+.buttons button.restart:hover,
+.start_btn:hover {
+  background-color: #678c2f;
+  border: 1px solid #678c2f;
+}
+
+footer .next_btn:hover {
+  background-color: #636364;
+  border: 1px solid #636364;
+}
+
+.buttons button.quit {
+  color: #8cbf3f;
+  border-color: #8cbf3f;
+}
+
+.quiz_box {
+  width: 550px;
+  background-color: #f2cc0f;
+  border-radius: 5px;
+}
+
+.quiz_box header {
+  position: relative;
+  z-index: 99;
+  height: 70px;
+  padding: 0 30px;
+  background-color: #8cbf3f;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 5px 5px 0 0;
+  box-shadow: 0px 3px 5px 1px rgba(0, 0, 0, 0.1);
+}
+
+.quiz_box header .title {
+  font-family: "Henny Penny";
+  letter-spacing: 1px;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.quiz_box header .timer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 145px;
+  height: 45px;
+  background-color: rgba(255, 255, 255, 0.35);
+  border: 1px solid rgba(255, 255, 255, 0.35);
+  border-radius: 5px;
+  padding: 0 8px;
+}
+
+.quiz_box header .timer .time_text {
+  font-weight: 400;
+  font-size: 17px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.quiz_box header .timer .timer_sec {
+  font-size: 18px;
+  font-weight: 500;
+  background-color: #343a40;
+  height: 30px;
+  width: 45px;
+  color: #f2f2f2;
+  text-align: center;
+  line-height: 30px;
+  border-radius: 5px;
+  border: 1px solid #343a40;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.quiz_box section {
+  padding: 25px 30px 20px 30px;
+  background-color: #f2f2f2;
+}
+
+.quiz_box section .que_text {
+  font-family: "Pattaya";
+  font-size: 25px;
+}
+
+.quiz_box section .option_list {
+  padding: 20px 0;
+  display: block;
+}
+
+.quiz_box section .option_list .option {
+  border-radius: 5px;
+  padding: 8px 15px;
+  margin-bottom: 15px;
+  font-size: 17px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.quiz_box section .option_list .color {
+  background-color: #f2f2f2;
+  border: 1px solid #9453A6;
+}
+
+section .option_list .option:hover {
+  background-color: rgba(148, 83, 166, 0.368627451);
+  border: 1px solid rgba(148, 83, 166, 0.368627451);
+}
+
+.option_list .option:last-child {
+  margin-bottom: 0px;
+}
+
+.option_list .option .icon {
+  height: 26px;
+  width: 26px;
+  border: 2px solid transparent;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 13px;
+  line-height: 24;
+  pointer-events: none;
+}
+
+.option_list .option .icon.tick, .correct {
+  color: #23903c;
+  border: 1px solid #23903c;
+  background-color: #d4edda;
+}
+
+.option_list .option .icon.cross, .dis_correct {
+  color: #a42834;
+  border: 1px solid #a42834;
+  background-color: #f8d7da;
+}
+
+.disabled {
+  pointer-events: none;
+}
+
+.quiz_box footer {
+  height: 60px;
+  width: 100%;
+  padding: 0 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.quiz_box footer .total_que span {
+  display: flex;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+footer .total_que span p {
+  font-weight: 500;
+  padding: 0 5px;
+}
+
+.total_que span p:first-child {
+  padding-left: 0;
+}
+
+footer .next_btn {
+  height: 40px;
+  padding: 0 13px;
+  font-size: 18px;
+  font-weight: 400;
+  border: 1px solid #343a40;
+  outline: none;
+  color: #f2f2f2;
+  background-color: #343a40;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+.result_box {
+  background-color: #f2f2f2;
+  width: 450px;
+  padding: 25px 30px;
+  border-radius: 5px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.result_box .icon {
+  font-size: 100px;
+  color: #8cbf3f;
+  margin-bottom: 10px;
+}
+
+.result_box .score_text span {
+  display: flex;
+  margin: 10px 0;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.score_text span p {
+  font-weight: 600;
+  padding: 0 4px;
+}
+
+.result_box .buttons button {
+  margin: 0 10px;
+  height: 45px;
+  padding: 0 20px;
+  border: 1px solid #8cbf3f;
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 5px;
+}
+
+.hide {
+  display: none;
+}/*# sourceMappingURL=main.css.map */

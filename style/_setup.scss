@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+// variables for colors:
+$colorYellow: #f2cc0f;
+$colorGreen: #8cbf3f;
+$colorPurple: #9453A6;
+$colorBlack: #0d0d0d;
+$colorWhite: #f2f2f2;
+
+// variables for fonts:
+$titleFont1: "Pattaya";
+$titleFont2: "Henny Penny";
+$textFont: "Roboto", "sans-serif";
+
+// variables for font-size:
+$titleFontSize: 2.5rem;
+$titleFontSize2: 1.9rem;
+$textFontSize: 1rem;
+$navFontSize: 1.3rem;
+
+//
+$width100vw: 100vw;
+$middleScreenWidth: 80vw;
+
+// global:
+h1 {
+    font-family: $titleFont1;
+    font-size: $titleFontSize;
+    color: $colorBlack;
+    text-align: center;
+    text-shadow: 1px 1px 1px $colorPurple;
+    margin-top: 80px;
+    margin-bottom: 20px;
+    @media (max-width: 576px) {
+        margin-top: 50px;
+    }
+}
+
+h2 {
+    font-family: $titleFont1;
+    font-size: $titleFontSize2;
+    color: $colorBlack;
+    text-shadow: 1px 1px 1px $colorPurple;
+    margin: 25px 0px 12px 0px;
+    padding-top: 5px;
+}
+
+h3 {
+    font-family: $titleFont1;
+    text-align: center;
+}
+
+h4 {
+    font-family: $titleFont1;
+    text-align: center;
+    text-shadow: .3px .3px .3px $colorYellow;
+    margin: 30px 0px 10px 0px;
+}
+
+h5 {
+    font-family: $titleFont1;
+    text-align: center;
+}
+
+p {
+    font-family: $textFont;
+    font-size: $textFontSize;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+// body {
+//     background-color: $colorYellow;
+// }
+
+// .container {
+//     background-color: $colorWhite;
+// }

@@ -1,0 +1,25 @@
+// .accordion div h2 button:nth-child(n2) {
+//     background-color: $colorPurple;
+// }
+
+.myBgCP {
+    background-color: $colorPurple !important;
+    color: $colorBlack !important;
+}
+
+.myBgCG {
+    background-color: $colorGreen !important;
+    color: $colorBlack !important;
+}
+
+.myBgCY {
+    background-color: $colorYellow !important;
+    color: $colorBlack !important;
+}
+
+div p a {
+    color: $colorPurple;
+    &:hover {
+        color: $colorYellow;
+    }
+}
